@@ -4,7 +4,8 @@
   background-color: black;
 } */
 
-h1 {
+/* For "Use of "color" and "background-color" ____________> 1" */
+/* h1 {
   color: blue;
   background-color: grey;
 }
@@ -17,4 +18,19 @@ p {
 button {
   color: gold;
   background: black;
+} */
+
+/* Practice Qs _________________> 2 */
+h2 {
+  color: orange;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}
+
+p {
+  background-color: black;
+  color: white;
 }
