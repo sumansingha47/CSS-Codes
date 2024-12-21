@@ -20,8 +20,8 @@ button {
   background: black;
 } */
 
-/* Practice Qs _________________> 2 */
-h2 {
+/* Colors System _________________> 2 */
+/* h2 {
   color: #0af021;
 }
 
@@ -33,4 +33,50 @@ button {
 p {
   background-color: black;
   color: white;
-}
+} */
+
+ /* Text Properties _________________> 3 */
+
+ /* --- Practice Question --------
+  h1 {
+  font-family: league spartan;
+  color: #ffa511;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-decoration: teal double underline;
+  text-transform: uppercase;
+ } */
+
+
+ h1 {
+  text-align: center;
+  text-decoration: wavy red underline;
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: avant garde, didot, sans-serif;
+ }
+
+ h3 {
+  text-align: start;
+  text-decoration: dotted pink line-through;
+ }
+
+ p {
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 15px;
+ }
+
+ h2 {
+  font-weight: 800;
+  text-decoration: double green overline;
+  font-family: impact;
+ }
+
+ a {
+  text-decoration: none;
+ }
