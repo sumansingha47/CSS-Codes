@@ -39,7 +39,7 @@ p {
 
  /* --- Practice Question --------
   h1 {
-  font-family: league spartan;
+  font-family: league spartan, arial, serif;
   color: #ffa511;
   text-align: center;
   font-size: 55px;
