@@ -1,3 +1,4 @@
+/* Alpha Channel */
 div {
   height: 200px;
   width: 200px;
@@ -5,7 +6,38 @@ div {
   background-color: #51ff00ff;
 }
 
+/* Opacity */
 #opacity {
   background-color: #ffa511;
   opacity: 0.5;
+}
+
+/* Transition ------- 1 */
+div[id="transition1"] {
+  height: 200px;
+  width: 200px;
+  /* background-color: rgba(81, 255, 0, 0.415); */
+  background-color: #51ff00ff;
+  transition-duration: 1s;
+  transition-delay: 2s;
+}
+
+div[id="transition1"]:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* Transition ------- 2 */
+div[id="transition2"] {
+  height: 100px;
+  width: 100px;
+  background-color: #51ff00ff;
+  margin: 0 auto;
+  margin-top: 10px;
+  transition: margin-top 2s ease-in-out 0.2s;
+}
+
+div[id="transition2"]:hover {
+  margin-top: 100px;
+  background-color: pink;
 }
