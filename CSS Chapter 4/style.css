@@ -41,3 +41,52 @@ div[id="transition2"]:hover {
   margin-top: 100px;
   background-color: pink;
 }
+
+/* Transforms in CSS */
+section {
+  margin-top: 100px;
+}
+
+div[class="transforms"] {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: #7aa874;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+div:nth-last-child(2n) {
+  background-color: #ebb02d;
+}
+
+/* Transform: rotate() */
+div[id="one"] {
+  transform: rotate(45deg);
+}
+
+/* Transform: scale() */
+div[id="two"] {
+  /* transform: scale(2); */
+  /* transform: scale(0.5, 2); */
+  /* transform: scaleX(0.5); */
+  transform: scaleY(0.5);
+}
+
+/* Transform: translate() */
+div[id="three"] {
+  /* transform: translate(100px, 100px); */
+  transform: translateX(-100px);
+  /* transform: translateY(100px); */
+}
+
+/* Transform: skew() */
+div[id="four"] {
+  transform: skew(-30deg);
+  /* transform: skew(-90deg); */
+}
+
+/* Shorthand of <Transform> property */
+div[id="five"] {
+  transform: rotate(30deg) translate(150px);
+}
